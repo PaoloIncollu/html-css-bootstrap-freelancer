@@ -1,0 +1,61 @@
+
+/*General*/
+img{
+
+    width: 100%;
+}
+.my-container{
+
+    padding-top: 50px;
+}
+.row.my-row{
+    
+    min-height: 100px;
+    
+}
+/*Header*/
+.my-header-top{
+
+    min-height: 100px;
+    background-color:#2C3E50 ;
+}
+
+
+.my-header-bottom{
+
+    min-height: 400px;
+    background-color:#1ABC9C ;
+}
+
+
+/*Main*/
+
+.img-card{
+
+    width: 90%;
+    margin: 20px auto;
+
+}
+
+.img-card img{
+
+    border-radius: 20px;
+}
+/*Debug*/
+
+.debug .my-header-top .my-row .col-4{
+    
+    background-color: aqua;
+    
+}
+
+.debug .my-header-top .my-row .col-2{
+
+    background-color: red;
+    
+}
+
+.debug .my-header-bottom .col-12 .row .col-6{
+    
+    min-height: 20px;
+}
