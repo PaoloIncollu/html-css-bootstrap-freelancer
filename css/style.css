@@ -37,6 +37,12 @@
 
     border-radius: 10px;
 }
+
+.my-container-small{
+
+    width: 70%;
+    margin: 0 auto;
+}
 /*Debug*/
 
 
