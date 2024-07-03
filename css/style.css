@@ -1,61 +1,45 @@
 
 /*General*/
-img{
 
-    width: 100%;
-}
-.my-container{
+.my-bg-grey{
 
-    padding-top: 50px;
-}
-.row.my-row{
-    
-    min-height: 100px;
-    
-}
-/*Header*/
-.my-header-top{
-
-    min-height: 100px;
     background-color:#2C3E50 ;
 }
+.my-bg-green{
 
-
-.my-header-bottom{
-
-    min-height: 400px;
-    background-color:#1ABC9C ;
+    background-color: #1ABC9C;
 }
+/*Header*/
+
 
 
 /*Main*/
 
-.img-card{
+.my-container.d-flex{
 
-    width: 90%;
-    margin: 20px auto;
+    flex-direction: column;
+    align-items: center;
+}
+.my-img-avatar{
 
+    width: 200px;
+    
 }
 
-.img-card img{
+.my-line-star{
 
-    border-radius: 20px;
+    width: 100px;
+    height: 3px;
+    
+}
+
+.img-b-radius{
+
+    border-radius: 10px;
 }
 /*Debug*/
 
-.debug .my-header-top .my-row .col-4{
-    
-    background-color: aqua;
-    
-}
 
-.debug .my-header-top .my-row .col-2{
 
-    background-color: red;
-    
-}
 
-.debug .my-header-bottom .col-12 .row .col-6{
-    
-    min-height: 20px;
-}
+
