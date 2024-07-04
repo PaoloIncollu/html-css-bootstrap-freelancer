@@ -36,11 +36,18 @@
 
 .my-line-star{
 
-    width: 100px;
+    width: 20%;
     height: 3px;
     
 }
 
+.my-line-star-first{
+
+    width: 100px;
+    height: 3px;
+    
+
+}
 .img-b-radius{
 
     border-radius: 10px;
